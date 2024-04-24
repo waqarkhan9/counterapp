@@ -1,0 +1,34 @@
+.App{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    text-align: center;
+   
+    
+}
+.counter{
+    font-size: 30px;
+    color: white;
+    margin: 80px;
+    background-color: blue;
+}
+.IncrementButton{
+background-color:grey;
+height: 40px;
+padding: 10px;
+margin: 10px;
+font-size: 25px;
+border-radius: 5px;
+
+}
+.DecrementButton{
+    background-color: red;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    
+
+}
