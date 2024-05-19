@@ -19,18 +19,32 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Counter</h1>
-      <div>
+
+
         <div className="counter">
+           counter
           <h1>{counter}</h1>
-        </div>
+       
         <button className="IncrementButton" onClick={increment}>
           Increment
         </button>
         <button className="DecrementButton" onClick={decrement}>
           Decrement
         </button>
-      </div>
+        </div>
+
+       
+
+
+
+
+      
+
+
+
+
+
+
     </div>
   );
 }

@@ -1,17 +1,24 @@
 .App{
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: gray;
     text-align: center;
+    display: flex;
+    
+    
    
     
 }
 .counter{
+
+    display:grid;
     font-size: 30px;
-    color: white;
+ 
     margin: 80px;
-    background-color: blue;
+ 
+    height: 200px;
+    width: 150px;
 }
 .IncrementButton{
 background-color:grey;
