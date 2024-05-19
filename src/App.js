@@ -21,9 +21,10 @@ function App() {
     <div className="App">
 
 
-        <div className="counter">
-           counter
-          <h1>{counter}</h1>
+ 
+           <h1>COUNTER</h1>
+          <div className="counter"> {counter}</div>
+         
        
         <button className="IncrementButton" onClick={increment}>
           Increment
@@ -31,21 +32,12 @@ function App() {
         <button className="DecrementButton" onClick={decrement}>
           Decrement
         </button>
-        </div>
-
-       
-
-
-
-
-      
-
-
-
-
-
 
     </div>
+
+    
+    
+    
   );
 }
 
