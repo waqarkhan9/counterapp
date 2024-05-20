@@ -5,7 +5,8 @@ import React from 'react';
 import "./style.css";
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const initialValue = 0;
+  var [counter, setCounter] = useState(0);
 
   const increment = () => {
     setCounter(counter + 1);
@@ -18,6 +19,10 @@ function App() {
       setCounter(counter);
     }
   };
+
+  const reset = ()=>{
+    setCounter(counter = initialValue);
+  }
 
   return (
 
@@ -35,6 +40,10 @@ function App() {
         </button>
         <button className="DecrementButton" onClick={decrement}>
           Decrement
+        </button>
+        <button className="ResetButton" onClick={reset}>
+          Reset
+
         </button>
 
     </div>

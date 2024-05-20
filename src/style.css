@@ -28,14 +28,20 @@ border-radius: 5px;
 
 }
 .DecrementButton{
-    background-color: red;
+    background-color: blue;
     height: 40px;
     padding: 10px;
     margin: 10px;
     font-size: 25px;
     border-radius: 5px;
-    
-
+}
+.ResetButton{
+  background-color: red;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  border-radius: 5px;
 }
 
 .navbar {
