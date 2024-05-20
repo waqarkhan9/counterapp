@@ -1,4 +1,6 @@
 import { useState } from "react";
+import React from 'react';
+
 
 import "./style.css";
 
@@ -18,11 +20,13 @@ function App() {
   };
 
   return (
+
+    
     <div className="App">
 
 
  
-           <h1>COUNTER</h1>
+           <h1 className="title">COUNTER</h1>
           <div className="counter"> {counter}</div>
          
        
@@ -42,3 +46,5 @@ function App() {
 }
 
 export default App;
+
+
