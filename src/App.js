@@ -1,6 +1,5 @@
 import { useState } from "react";
-import React from 'react';
-
+import React from "react";
 
 import "./style.css";
 
@@ -20,40 +19,26 @@ function App() {
     }
   };
 
-  const reset = ()=>{
-    setCounter(counter = initialValue);
-  }
+  const reset = () => {
+    setCounter((counter = initialValue));
+  };
 
   return (
-
-    
     <div className="App">
+      <h1 className="title">COUNTER</h1>
+      <div className="counter"> {counter}</div>
 
-
- 
-           <h1 className="title">COUNTER</h1>
-          <div className="counter"> {counter}</div>
-         
-       
-        <button className="IncrementButton" onClick={increment}>
-          Increment
-        </button>
-        <button className="DecrementButton" onClick={decrement}>
-          Decrement
-        </button>
-        <button className="ResetButton" onClick={reset}>
-          Reset
-
-        </button>
-
+      <button className="IncrementButton" onClick={increment}>
+        Increment
+      </button>
+      <button className="DecrementButton" onClick={decrement}>
+        Decrement
+      </button>
+      <button className="ResetButton" onClick={reset}>
+        Reset
+      </button>
     </div>
-
-    
-    
-    
   );
 }
 
 export default App;
-
-
